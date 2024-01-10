@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Link from "next/link";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +17,32 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+        <head>
+            {/*<meta name="viewport" content="width=device-width, initial-scale=1">*/}
+            <title>Mon e-CV</title>
+        </head>
+    <body className={inter.className + " bg-yellow-50"}>
+
+    <header>
+        <div className="flex justify-center flex-row gap-x-4 text-center items-center bg-yellow-100 pt-2 pb-2">
+            <div className="flex justify-center bg-green-200 w-28 h-7 ">
+                <Link className="object-cover  w-28 h-7 hover:transition-colors hover:bg-green-400 hover:text-white" href="/">🏠 Accueil</Link>
+            </div>
+
+            <div className="flex justify-center bg-green-200 w-28 h-7">
+                <Link className="object-cover w-28 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="/cv">🖊️ Mon CV</Link>
+            </div>
+
+            <div>
+                <Link className="flex justify-center bg-green-200 object-cover w-28 h-7 hover:transition-colors hover:bg-green-400 hover:text-white"
+                   href="mailto:leo.thierry.mosse@gmail.com">✉️ Contact</Link>
+            </div>
+
+        </div>
+    </header>
+
+    <main className={"m-5"}>{children}</main>
+    </body>
     </html>
   )
 }
