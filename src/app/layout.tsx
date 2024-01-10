@@ -30,7 +30,7 @@ export default function RootLayout({
             </div>
 
             <div className="flex justify-center bg-green-200 w-28 h-7">
-                <Link className="object-cover w-28 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="/cv">🖊️ Mon CV</Link>
+                <Link className="object-cover w-28 h-7 hover:transition-colors hover:bg-green-400 hover:text-white  " href="/cv">🖊️ Mon CV</Link>
             </div>
 
             <div>
