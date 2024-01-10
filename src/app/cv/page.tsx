@@ -21,7 +21,7 @@ export default function Page(): ReactNode {
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/git.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/git.png"} alt={"icon git"} className={"techno-img"}/>
                         <div>Git</div>
                         <div className={"flex flex-row justify-center"}>
                             <span className={"star-icon star-icon__light"}/>
@@ -33,7 +33,7 @@ export default function Page(): ReactNode {
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/symfony.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/symfony.png"} alt={"icon symfony"} className={"techno-img"}/>
                         <div>Symfony</div>
                         <div className={"flex flex-row justify-center"}>
                             <span className={"star-icon star-icon__light"}/>
@@ -45,7 +45,7 @@ export default function Page(): ReactNode {
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/html.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/html.png"} alt={"icon html"} className={"techno-img"}/>
                         <div>HTML</div>
                         <div className={"flex flex-row justify-center"}>
                             <span className={"star-icon star-icon__light"}/>
@@ -57,7 +57,7 @@ export default function Page(): ReactNode {
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/css.svg"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/css.svg"} alt={"icon css"} className={"techno-img"}/>
                         <div>CSS</div>
                         <div className={"flex flex-row justify-center"}>
                             <span className={"star-icon star-icon__light"}/>
@@ -69,7 +69,7 @@ export default function Page(): ReactNode {
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/docker.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/docker.png"} alt={"icon docker"} className={"techno-img"}/>
                         <div>Docker</div>
                         <div className={"flex flex-row justify-center"}>
                             <span className={"star-icon star-icon__light"}/>
@@ -90,42 +90,42 @@ export default function Page(): ReactNode {
                 <div className={"text-center mt-11 flex justify-center gap-2 flex-wrap"}>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/laravel.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/laravel.png"} alt={"icon laravel"} className={"techno-img"}/>
                         <div>Laravel</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/postgresql.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/postgresql.png"} alt={"icon postgresql"} className={"techno-img"}/>
                         <div>Postgresql</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/javascript.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/javascript.png"} alt={"icon javascript"} className={"techno-img"}/>
                         <div>Javascript</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/react.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/react.png"} alt={"icon react"} className={"techno-img"}/>
                         <div>React</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/angular.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/angular.png"} alt={"icon angular"} className={"techno-img"}/>
                         <div>Angular</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/python.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/python.png"} alt={"icon python"} className={"techno-img"}/>
                         <div>Python</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/flask.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/flask.png"} alt={"icon flask"} className={"techno-img"}/>
                         <div>Flask</div>
                     </div>
 
                     <div className={"flex flex-col items-center justify-center bg-green-200 p-2 rounded-2xl"}>
-                        <img src={"/java.png"} alt={"icon php"} className={"techno-img"}/>
+                        <img src={"/java.png"} alt={"icon java"} className={"techno-img"}/>
                         <div>Java</div>
                     </div>
                 </div>
